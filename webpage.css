@@ -1,0 +1,165 @@
+/* Reset default browser styles */
+body,  h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+      text-align: center;
+  }
+  
+  /* Basic styling */
+  body {
+    
+    
+    font-family :Arial, sans_serif;
+    background-image: url("C:/Users/MOURYA/Downloads/bck.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  h3{
+    color: #451010;
+  }
+  
+  
+  
+  
+  header ,.registration{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px 100px 100px;
+    padding: 40px;
+    text-align: center;
+    background-color:hotpink;
+    border-radius: 5px;
+    background-position: center;
+  }
+  .WEBINAR{
+    display:flex;
+    flex-direction: column;
+    background-color: pink;
+    background-position:center;
+    margin: 100px;
+  }
+  .main-content
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color:pink;
+    border-radius: 5px;
+  }
+  
+  
+  .header-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  
+  header h1 {
+    color: crimson;
+  }
+  
+  h2 {
+    color:black;
+    margin-top: 20px;
+  }
+  
+  p {
+     color:#abae96;
+    margin-top: 10px;
+    line-height: 1.5;
+
+  }
+  p1 {
+    color:blueviolet;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  p3 {
+    color:black;
+    font-style:solid;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  
+  ul {
+    margin-top: 10px;
+    list-style: disc;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  header img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    display: inline-block;
+    background-color:aqua;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d4e0ed;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  /* Add background image to the header */
+  .header-bg {
+
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Center the content within the header */
+  .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color: powderblue; /* Add a semi-transparent overlay */
+    border-radius: 5px;
+  }
+  .main {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    position: center;
+   
+    padding: 40px;
+  }
